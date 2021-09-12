@@ -1,0 +1,41 @@
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content > view {
+  position: relative;
+  flex: 6;
+}
+
+.emoji_list {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12rpx 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+}
+.emoji_list view {
+  margin-top: 22rpx;
+  padding: 12rpx;
+}
+
+.emoji {
+  font-size: 52rpx;
+  width: 70rpx;
+  padding: 8rpx;
+  margin: 8rpx;
+  display: inline-block;
+  text-align: center;
+}
+.emoji:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8rpx;
+}
